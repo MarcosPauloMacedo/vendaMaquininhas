@@ -1,0 +1,128 @@
+#safraPay{
+    grid-area: safraPay;
+    display: flex;
+    flex-direction: column;
+    background: #EAEBEF;
+    padding-bottom: 30px;
+}
+
+#safraPay-maquininhas{
+    padding: 20px 20px 0 20px;
+    background: #EAEBEF;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+.safraPay-inicial{
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.safraPay-inicial img{
+    width: 50%;
+}
+
+#safraPay-pro{
+    grid-column: 1/2;
+}
+
+#safraPay-slim{
+    grid-column: 2/3; 
+}
+
+#safraPay-mini{
+    grid-column: 3/4;  
+}
+
+#safraPay-smart{
+    grid-column: 4/5;
+}
+
+#safraPay-pro, #safraPay-slim, #safraPay-mini, #safraPay-smart{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.safra-caixa{
+    text-align: center;
+    height: 170px;
+}
+
+.safra-pro{
+    width: 20%;
+    align-self: center;
+    padding: 10px;
+}
+
+.safra-titulo{
+    color: #00001E;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.safra-especificacao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    padding: 30px 15px;
+}
+
+.caixa-economia{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 70%;
+    height: 30px;
+    background: #00001E;
+    color: #ffffff;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.safra-economia{
+    font-size: 20px;
+    align-self: center;
+}
+
+.safra-precoDesconto{
+    text-decoration: line-through;
+    color:rgb(62, 62, 62);
+    align-self: center;
+    padding: 5px;
+}
+
+.safra-precoReal{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+}
+
+.safra-valorFinal{
+    color: #00001E;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.safra-comprar{
+    background: #00001E;
+    border-radius: 10px;
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+    align-self: center;
+    width: 80%;
+    color: #ffffff;
+    font-weight: bold;
+}

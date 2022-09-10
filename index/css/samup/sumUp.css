@@ -1,0 +1,173 @@
+#samup{
+   grid-area: sumUp;
+   padding-bottom: 50px;
+   border: 2px solid #cecaca;
+}
+
+.sumup-inicio{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+}
+
+.sumup-imagemInicial{
+    grid-column: 1/2;
+}
+
+.sumup-imagemInicial img{
+    width: 100%;
+}
+
+.sumup-txtInicial{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.sumup-txtInicial h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.smp-txt{
+    padding: 30px 0px;
+}
+
+#sumup-maquininha{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 500px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+}
+
+#sumup-top{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #cecaca;
+    border-radius: 10px;
+}
+
+#sumup-solo{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #cecaca;
+    border-radius: 10px;
+}
+
+#sumup-total{
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #cecaca;
+    border-radius: 10px;
+}
+
+#sumup-on{
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #cecaca;
+    border-radius: 10px;
+}
+
+.sumup-caixa{
+    height: 200px;
+    text-align: center;
+}
+
+.imagem-solo{
+    width: 80%;
+}
+
+.imagem-total{
+    width: 70%;
+}
+
+.sumup-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.sumup-desconto{
+    background:#CA58FF;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.sumup-desconto{
+    font-size: 17px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.sumup-precoDesconto{
+    text-decoration: line-through;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8c8c8c;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.sumup-todosPrecos, .sumup-totalPrecos{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sumup-totalPrecos{
+    width: 85%;
+}
+
+.sumup-todosPrecos{
+    width: 80%;
+}
+
+.sumup-precoReal .sumup-juros{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sumup-valorFinal{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #3063E9;
+}
+
+.sumup-avista{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8c8c8c;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.sumup-comprar{
+    width: 70%;
+    height: 40px;
+    background: #3063E9;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    margin: 10px 0px;
+}

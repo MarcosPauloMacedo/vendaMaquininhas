@@ -1,0 +1,132 @@
+#pagSeguro{
+    grid-area: pagSeguro;
+}
+
+#pagSeguro-container{
+    background-color: #FFCC4A;
+    padding: 20px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 23% 23% 23% 23%;
+}
+
+#minizinha-nfc{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+#moderninha-pro{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding-bottom:20px;
+    border-radius: 10px;
+}
+
+#moderninha-smart{
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    background:#ffffff;
+    border-radius:10px ;
+}
+
+#minizinha-chip3{
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.caixa-imagem{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+}
+
+.caixa-imagem{
+    height: 150px;
+    text-align: center;
+}
+
+.pagSeguro-moderninha{
+    width: 23%;
+}
+
+.pagSeguro-moderninhaPro{
+    width: 25%;
+    align-self: center;
+}
+
+.pagSeguro-moderninhaSmart{
+    width: 18%;
+}
+
+.pagSeguro-moderninhaChip3{
+    width: 18%;
+}
+
+.pagSeguro-nome{
+    padding: 10px 0px 50px 0px;
+    align-self: center;
+    width: 70%;
+}
+
+.pagSeguro-smart{
+    width: 50%;
+    padding: 10px 0px 35px 0px;
+    align-self: center;
+}
+
+.pagSeguro-chip3{
+    width: 70%;
+    align-self: center;
+    padding: 10px 0px 37px 0px;
+}
+
+.pagSeguro-descricao{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    padding: 2px 0px;
+}
+
+.preco-pagSeguro{
+    text-decoration: line-through;
+    text-align: center;
+    padding: 50px 0px 5px 0px;
+}
+
+.precoDividido-pagSeguro{
+    text-align: center;
+}
+
+.peca-ja{
+    align-self: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background: #FFCC4A;
+    margin-top: 20px;
+}
+
+.pagSeguro-precoReal{
+    padding-top: 15px;
+    color: #1BB99A;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

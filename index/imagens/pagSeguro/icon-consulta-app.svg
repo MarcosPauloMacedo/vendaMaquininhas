@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="28px" viewBox="0 0 16 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon-consulta-app</title>
+    <desc>Created with Sketch.</desc>
+    <g id="TESTE---B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="V2_maquininhas_1280" transform="translate(-1137.000000, -5951.000000)" stroke="#FFFFFF">
+            <g id="conta-digital" transform="translate(-444.000000, 5390.000000)">
+                <g id="Minha-conta" transform="translate(1098.000000, 314.000000)">
+                    <g id="Vantagens" transform="translate(0.000000, 225.000000)">
+                        <g id="transfira" transform="translate(199.000000, 0.000000)">
+                            <g id="Group-9" transform="translate(54.000000, 0.000000)">
+                                <g id="08/-icone/contadigital_branco" transform="translate(220.000000, 18.000000)">
+                                    <g id="Group-1015" transform="translate(10.125000, 4.500000)">
+                                        <path d="M15.1875,24.1875 C15.1875,25.4295 14.1795,26.4375 12.9375,26.4375 L2.8125,26.4375 C1.5705,26.4375 0.5625,25.4295 0.5625,24.1875 L0.5625,2.8125 C0.5625,1.5705 1.5705,0.5625 2.8125,0.5625 L12.9375,0.5625 C14.1795,0.5625 15.1875,1.5705 15.1875,2.8125 L15.1875,24.1875 L15.1875,24.1875 Z" id="Stroke-3529" stroke-linecap="round"></path>
+                                        <line x1="15.1875" y1="5.0625" x2="0.5625" y2="5.0625" id="Stroke-3530" stroke-linecap="round"></line>
+                                        <polyline id="Stroke-3531" stroke-linecap="round" points="15.1875 21.9375 12.1992188 21.9375 0.5625 21.9375"></polyline>
+                                        <line x1="5.0625" y1="2.8125" x2="10.6875" y2="2.8125" id="Stroke-3532" stroke-linecap="round"></line>
+                                        <path d="M8.4375,24.188625 C8.4375,24.499125 8.1855,24.751125 7.875,24.751125 C7.5645,24.751125 7.3125,24.499125 7.3125,24.188625 C7.3125,23.878125 7.5645,23.626125 7.875,23.626125 C8.1855,23.626125 8.4375,23.878125 8.4375,24.188625 L8.4375,24.188625 Z" id="Stroke-3533"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,146 @@
+#safra-simulacao{
+    background: #EAEBEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.safra-pessoa{
+    margin-bottom: 15px;
+}
+
+.safra-calculadora{
+    width: 70%;
+    background: #ffffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.safra-dados{
+    grid-column: 1/2;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.safra-resultado{
+    grid-column: 2/3;
+    background:#00001E;
+    border: 10px solid #00001E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#safra-simulacao h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dados-txt{
+    align-self: center;
+    font-size: 23px;
+    margin-bottom: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.dados-container{
+    width: 80%;
+}
+
+.dados-container label{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.safra-dados input, .safra-dados select{
+    padding: 15px;
+    border: 1px solid rgb(36, 165, 245);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.safra-dados input{
+    width: 90%;
+}
+
+.safra-dados select{
+    width: 100%;
+}
+
+.resultado-txt{
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.safra-resultado p {
+    color: #ACACB6;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.resultado-container{
+    width: 80%;
+}
+
+.safra-tipoResultado h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.safra-resultadoParcelas{
+    display: flex;
+}
+
+.safra-x-parcelas{
+    margin-left: 10px;
+    color: #ffffff;
+    background: #00001E;
+    border: 0px;
+    font-size: 18px;
+}
+
+.safra-menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.safra-liPreco{
+    color: #0080ff;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.safra-liTaxa{
+    color: #ACACB6;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    border-left: 2px solid #ffffff;
+    padding-left: 10px;
+}

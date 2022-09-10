@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="26px" viewBox="0 0 33 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon-transferencia</title>
+    <desc>Created with Sketch.</desc>
+    <g id="TESTE---B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="V2_maquininhas_1280" transform="translate(-927.000000, -5952.000000)" stroke="#FFFFFF">
+            <g id="conta-digital" transform="translate(-444.000000, 5390.000000)">
+                <g id="Minha-conta" transform="translate(1098.000000, 314.000000)">
+                    <g id="Vantagens" transform="translate(0.000000, 225.000000)">
+                        <g id="transfira" transform="translate(271.000000, 0.000000)">
+                            <g id="08/-icone/transferencia_banco" transform="translate(0.000000, 18.000000)">
+                                <g id="Group-2" transform="translate(14.625000, 10.125000)">
+                                    <g id="Group" stroke-width="0.899999976">
+                                        <path d="M0.5068875,10.5981187 C0.5068875,12.1821187 1.791825,13.4670562 3.375825,13.4670562 C4.9577625,13.4670562 6.2427,12.1821187 6.2427,10.5981187 C6.2427,9.01411875 4.9577625,7.72505625 3.375825,7.72505625 C1.791825,7.72505625 0.5068875,6.44424375 0.5068875,4.85818125 C0.5068875,3.27418125 1.791825,1.98924375 3.375825,1.98924375 C4.9577625,1.98924375 6.2427,3.27418125 6.2427,4.85818125" id="Stroke-8370"></path>
+                                        <line x1="3.375" y1="13.4662313" x2="3.375" y2="15.3761063" id="Stroke-8371"></line>
+                                        <line x1="3.375" y1="0.076275" x2="3.375" y2="1.990275" id="Stroke-8372"></line>
+                                    </g>
+                                </g>
+                                <g id="Group-1035" transform="translate(2.250000, 5.625000)">
+                                    <polyline id="Stroke-4370" points="0.6796875 10.1178 4.46826563 15.825425 8.82370312 10.548175"></polyline>
+                                    <polyline id="Stroke-4371" points="31.3651313 16.0320875 27.5779125 10.3244625 23.2197563 15.6017125"></polyline>
+                                    <path d="M27.5273438,10.3756125 C28.6610625,16.4379875 24.436125,22.3752375 18.6791719,23.7529875 C14.6635781,24.7141125 10.6371094,23.4243625 7.89796875,20.6949875" id="Stroke-4372"></path>
+                                    <path d="M4.47370312,15.7889875 C2.68748437,9.0776125 7.15303125,2.4886125 13.3612969,1.0036125 C17.6514844,-0.0221375 21.9471094,1.5178625 24.6780937,4.6363625" id="Stroke-4373"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

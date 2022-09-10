@@ -1,0 +1,236 @@
+#ton-caixaFinal{
+    height: 700px;
+    background: #00B200;
+}
+
+#ton-caixaFinal h3{
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    color: #f9f9f9;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.ton-calcularCaixa{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: auto;
+    justify-content: center;
+    background: #00B200;
+}
+
+.ton-escolherPlano{
+    grid-column: 1/2;
+    /*background: #ffffff; */
+    background: #ffffff;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ton-resultadoPlano{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: #ffffff;
+    margin-left: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ton-escolherPlano p, .ton-escolherPlano label{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.ton-botoes{
+    display: flex;
+    width: 90%;
+    border: none;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.ton-botoes :hover{
+    cursor: pointer;
+}
+
+.ton-button{
+    width: 150px;
+    height: 50px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    border: 1px solid rgb(138, 138, 138);
+}
+
+.button-ultraTon{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+    background: #00AD0C;
+    color: #ffffff;
+}
+
+.button-ultraBasico{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ton-tiposVendas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ton-tiposVendas :hover{
+    cursor: pointer;
+}
+
+.ton-button2{
+    width: 45%;
+    height: 40px;
+    border: 1px solid rgb(138, 138, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
+
+.button-credito{
+    background: #00AD0C;
+    color: #ffffff;
+}
+
+.ton-vlrVenda{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+
+.ton-vlrVenda input{
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    border:1px solid black;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.ton-parcelaBandeira{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    margin-bottom: 20px;
+}
+
+.ton-parcelamento{
+    grid-column: 1/2;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ton-cartao{ 
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+#ton-bandeira-cartao{
+    height: 40px;
+    width: 90%;
+}
+
+.ton-simular{
+    width: 80%;
+    height: 50px;
+    background: #00AD0C;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:20px 0px;
+}
+
+.ton-receber{
+    width: 100%;
+    height: 100px;
+    background: #00AD0C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.valor-receber{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.ton-taxasPagar{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows:100px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ton-taxasPagar-taxas{
+    grid-column: 1/2;
+}
+
+.ton-taxasPagar-tarifa{
+    grid-column: 2/3;
+}
+
+.ton-taxasPagar-taxas, .ton-taxasPagar-tarifa{
+    background: rgb(233, 233, 233);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0a0a0a;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ton-vlr-taxa{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ton-economiaFinal{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: rgb(233, 233, 233);
+    border-radius: 10px;
+}
