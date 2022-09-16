@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./index/css/style.css">
 
     <link rel="stylesheet" href="./index/css/mercadoPago/mercadoPago.css">
-    <link rel="stylesheet" href="./index/css/mercadoPago/inicialMp.css">
     <link rel="stylesheet" href="./index/css/mercadoPago/maquininhasMP.css">
+    <link rel="stylesheet" href="./index/css/mercadoPago/simulacao.css">
 
     <link rel="stylesheet" href="./index/css/pagSeguro/pagSeguro.css">
     <link rel="stylesheet" href="./index/css/pagSeguro/pagSeguroInicial.css">
@@ -146,7 +146,86 @@
             
                             <button class="botao-comprar">Comprar</button>
                     </section>
-                </section>    
+                </section> 
+                <section id="mp-simulacao">
+                    <h2>SIMULE SUA VENDA COM MERCADO PAGO</h2>
+                    <div class="mp-pessoa">
+                        <label for="">Pessoa física</label>
+                        <input type="checkbox" name="" id="">
+                        
+                        <label for="">Pessoa jurídica</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="mp-calculadora">
+                        <div class="mp-dados">
+                            <h3 class="mp-dados-txt">Insira os dados</h3>
+                            <div class="mp-dados-container">
+                                <label for="">Digite um valor da venda</label>
+                                <input type="number">
+                            </div>
+                            <div class="mp-dados-container">
+                                <label for="">Bandeiras de cartão</label>
+                                <select name="venda">
+                                    <option value="mp-tipos-Cartao">Elo, Amex, Hipercard</option>
+                                    <option value="mp-tipos-Cartao">MasterCard Visa</option>
+                                </select>
+                            </div>
+                            <div class="mp-dados-container">
+                                <label for="">Prazo de recebimento</label>
+                                <select name="venda">
+                                    <option value="mp-recebimento">Receber na hora</option>
+                                    <option value="mp-recebimento">Receber em 1 dia</option>
+                                    <option value="mp-recebimento">Sem antecipação</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mp-resultado">
+                            <h3 class="mp-resultado-txt">Resultado</h3>
+                            <p>Se vender R$ 150, você recebe: </p>
+
+                            <div class="mp-resultado-container">
+                                <div class="mp-tipoResultado">
+                                    <h3>No débito</h3>
+                                    <ul class="mp-menu">
+                                        <li class="mp-liPreco">R$ 9,83</li>
+                                        <li class="mp-liTaxa">taxa de 1,68%</li>
+                                    </ul>
+                                </div>
+
+                                <div class="mp-tipoResultado">
+                                    <h3>No crédito à vista</h3>
+                                    <ul class="mp-menu">
+                                        <li class="mp-liPreco">R$ 9,66</li>
+                                        <li class="mp-liTaxa">taxa de 3,45%</li>
+                                    </ul>
+                                </div>
+
+                                <div class="mp-tipoResultado">
+                                    <div class="mp-resultadoParcelas">
+                                        <h3>No crédito parcelado</h3>
+                                         <select class="mp-x-parcelas" name="mp-parcelas">
+                                            <option value="mp-x-parcelas">2x</option>
+                                            <option value="mp-x-parcelas">3x</option>
+                                            <option value="mp-x-parcelas">4x</option>
+                                        </select>
+                                    </div>
+                                    <ul class="mp-menu">
+                                        <li class="mp-liPreco">R$ 9,31</li>
+                                        <li class="mp-liTaxa">taxa de 6,95%</li>
+                                    </ul>
+                                </div>
+
+                                <div class="mp-tipoResultado">
+                                    <h3>Pix</h3>
+                                    <ul class="mp-menu">
+                                        <li class="mp-liPreco10">R$ 10,00</li>
+                                        <li class="mp-liTaxa">taxa de 0,00%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>   
             </section>
             <section id="pagSeguro">
                 <div class="pagSeguroInicial">
@@ -258,7 +337,52 @@
                     </div>
                 </section>
                 <section id="pagSeguro-simulacao">
-
+                    <div class="pagS-sumulacao-Container">
+                        <h2 class="pagS-h2">Simule aqui sua venda</h2>
+                        <div class="pagS-container">
+                            <div class="pagS-parcelamento">
+                                <input type="text" placeholder="Digite o valor">
+                                <select class="pagS-x-parcelas" name="safra-parcelas">
+                                    <option value="pagS-x-parcelas">Débito</option>
+                                    <option value="pagS-x-parcelas">Crédito a vista</option>
+                                    <option value="pagS-x-parcelas">2 parcelas</option>
+                                    <option value="pagS-x-parcelas">3 parcelas</option>
+                                    <option value="pagS-x-parcelas">4 parcelas</option>
+                                    <option value="pagS-x-parcelas">5 parcelas</option>
+                                    <option value="pagS-x-parcelas">6 parcelas</option>
+                                    <option value="pagS-x-parcelas">7 parcelas</option>
+                                    <option value="pagS-x-parcelas">8 parcelas</option>
+                                    <option value="pagS-x-parcelas">9 parcelas</option>
+                                    <option value="pagS-x-parcelas">10 parcelas</option>
+                                    <option value="pagS-x-parcelas">11 parcelas</option>
+                                    <option value="pagS-x-parcelas">12 parcelas</option>
+                                    <option value="pagS-x-parcelas">13 parcelas</option>
+                                    <option value="pagS-x-parcelas">14 parcelas</option>
+                                    <option value="pagS-x-parcelas">15 parcelas</option>
+                                    <option value="pagS-x-parcelas">16 parcelas</option>
+                                    <option value="pagS-x-parcelas">17 parcelas</option>
+                                    <option value="pagS-x-parcelas">18 parcelas</option>
+                                </select>
+                            </div>
+                            <div class="pagS-recebimento">
+                                <h3>Você recebe</h3>
+                                <div class="pagS-tiposPagamentos">
+                                    <div class="pagS-tipo">
+                                        <p>Na hora</p>
+                                        <p class="pagS-vlr">R$ 0,00</p>
+                                    </div>
+                                    <div class="pagS-tipo">
+                                        <p>Em 14 dias</p>
+                                        <p class="pagS-vlr"> R$ 0,00</p>
+                                    </div>
+                                    <div class="pagS-tipo">
+                                        <p>Em 30 dias</p>
+                                        <p class="pagS-vlr"> R$ 0,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </section>
 
@@ -414,7 +538,7 @@
                                 <div class="safra-tipoResultado">
                                     <h3>Pix</h3>
                                     <ul class="safra-menu">
-                                        <li class="safra-liPreco">R$ 10,00</li>
+                                        <li class="safra-liPreco10">R$ 10,00</li>
                                         <li class="safra-liTaxa">taxa de 0,00%</li>
                                     </ul>
                                 </div>
@@ -797,6 +921,74 @@
                         <p class="sumup-avista">Preço total R$ 274,80</p>  
                         
                         <button class="sumup-comprar">Comprar</button>
+                    </div>
+                </section>
+                <section class="samup-simulacao">
+                    <h2>Na SumUp não tem aluguel, você só paga quando vende</h2>
+                    <p class="smp-p">Na compra da sua primeira maquininha, você garante taxas simples e fáceis de entender</p>
+                    <div class="smp-container">
+                        <div class="smp-bandeiras">
+                            <div class="smp-valor">
+                                <h4>Quanto você vende por mês?</h4>
+                                <div class="smp-label">
+                                    <label for="">Até 10.000 R$</label>
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Mais de 10.000 R$</label>
+                                    <input type="checkbox" name="" id="">
+                                </div>
+                            </div>
+                            <div class="smp-tipos-bandeiras">
+                                <button>Visa e MasterCard</button>
+                                <button>Outras bandeiras</button>
+                            </div>
+                        </div>
+                        <div class="smp-credito-debito">
+                            <div class="smp-debito">
+                                <h4 class="smp-subtitulo">Débito</h4>
+                                <p class="smp-p">Receber as vendas em</p>
+                                <p class="smp-p-dia">1 dia útil</p>
+                                <p class="smp-p-promocao">Promoção</p>
+                                <p class="smp-p-porCento">1,0%</p>
+                                <p>por 2 meses e</p>
+                                <p class="smp-p-meses">1,6% após</p>
+                            </div>
+                            <div class="smp-credito">
+                                <div class="smp-input-label">
+                                    <label class="smp-subtitulo smp-sub" for="">Crédito</label>
+                                    <select id="smp-bandeira-cartao" name="venda">
+                                        <option class="option" value="Avista">À vista</option>
+                                        <option value="duas">2x</option>
+                                        <option value="tres">3x</option>
+                                        <option value="quatro">4x</option>
+                                        <option value="cinco">5x</option>
+                                        <option value="seis">6x</option>
+                                        <option value="sete">7x</option>
+                                        <option value="oito">8x</option>
+                                        <option value="nove">9x</option>
+                                        <option value="dez">10x</option>
+                                        <option value="unze">11x</option>
+                                        <option value="doze">12x</option>
+                                    </select>
+                                </div>
+
+                                <div class="smp-escolher-credito">
+                                    <p class="smp-p">Receber as vendas em</p>
+                                    <p class="smp-p-dia">1 dia útil</p>
+                                    <p class="smp-p-promocao">Promoção</p>
+                                    <p class="smp-p-porCento">1,0%</p>
+                                    <p>por 2 meses e</p>
+                                    <p class="smp-p-meses">3,4% após</p>
+                                </div>
+                                <div class="smp-credito-receber">
+                                    <p class="smp-p">Receber as vendas em</p>
+                                    <p class="smp-p-dia">1 dia útil</p>
+                                    <p class="smp-p-promocao">Promoção</p>
+                                    <p class="smp-p-porCento">1,0%</p>
+                                    <p>por 2 meses e</p>
+                                    <p class="smp-p-meses">2,9% após</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </section>

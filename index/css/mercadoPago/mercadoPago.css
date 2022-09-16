@@ -5,3 +5,54 @@
 .mp-inicial{
     background: #009EE3;
 }
+
+.mp-inicial{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.mp-textoMultiproduto{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mp-inicialImagem{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: end;
+}
+
+.mp-imagemMultiproduto{
+    width: 80%;
+}
+
+.mp-textos{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.mp-point{
+    background: #32bcf8;
+    padding: 5PX;
+    WIDTH: 35%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.mp-textoMultiproduto p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mp-textoMultiproduto h2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 40px;
+}

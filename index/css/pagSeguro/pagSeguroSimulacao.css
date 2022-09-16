@@ -1,4 +1,87 @@
 #pagSeguro-simulacao{
     height: 500px;
     background: #FFCC4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagS-sumulacao-Container{
+    height: 300px;
+    width: 90%;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagS-h2{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagS-container{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 50% 50%;
+}
+
+.pagS-parcelamento{
+    grid-column: 1/2;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pagS-parcelamento input, .pagS-x-parcelas{
+    width: 90%;
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.pagS-x-parcelas{
+    width: 92%;
+    height: 43px;
+}
+
+.pagS-recebimento{
+    grid-column: 2/3;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pagS-recebimento h3{
+    color: #767575;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.pagS-tiposPagamentos{
+    width: 60%;
+}
+
+.pagS-tipo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #F78200;
+}
+
+.pagS-vlr{
+    color: black;
+}
+
+.pasS-tipo{
+    display: flex;
 }

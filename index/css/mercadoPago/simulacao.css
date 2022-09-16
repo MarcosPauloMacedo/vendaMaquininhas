@@ -1,18 +1,18 @@
-#safra-simulacao{
-    background: #EAEBEF;
+#mp-simulacao{
+    background: #009EE3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
-.safra-pessoa{
+.mp-pessoa{
     margin-bottom: 15px;
 }
 
-.safra-calculadora{
+.mp-calculadora{
     width: 70%;
     background: #ffffff;
     border-radius: 10px;
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.safra-dados{
+.mp-dados{
     grid-column: 1/2;
     background: #ffffff;
     display: flex;
@@ -33,10 +33,10 @@
     border-bottom-left-radius: 10px;
 }
 
-.safra-resultado{
+.mp-resultado{
     grid-column: 2/3;
-    background:#00001E;
-    border: 10px solid #00001E;
+    padding: 20px;
+    border-left: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,15 +44,16 @@
     border-bottom-right-radius: 10px;
 }
 
-#safra-simulacao h2{
+#mp-simulacao h2{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     padding: 10px;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
-.dados-txt{
+.mp-dados-txt{
     align-self: center;
     font-size: 23px;
     margin-bottom: 70px;
@@ -60,16 +61,16 @@
     font-weight: 700;
 }
 
-.dados-container{
+.mp-dados-container{
     width: 80%;
 }
 
-.dados-container label{
+.mp-dados-container label{
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.safra-dados input, .safra-dados select{
+.mp-dados input, .mp-dados select{
     padding: 15px;
     border: 1px solid rgb(36, 165, 245);
     border-radius: 10px;
@@ -77,43 +78,43 @@
     margin-top: 5px;
 }
 
-.safra-dados input{
+.mp-dados input{
     width: 90%;
 }
 
-.safra-dados select{
+.mp-dados select{
     width: 100%;
 }
 
-.resultado-txt{
-    color: #ffffff;
+.mp-resultado-txt{
+    color: #080808;
     font-size: 23px;
     margin-bottom: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
 
-.safra-resultado p {
-    color: #ACACB6;
+.mp-resultado p {
+    color: #4e4e4f;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 30px;
 }
 
-.resultado-container{
+.mp-resultado-container{
     width: 80%;
 }
 
-.safra-tipoResultado h3{
-    color: #ffffff;
+.mp-tipoResultado h3{
+    color: #000000;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.safra-resultadoParcelas{
+.mp-resultadoParcelas{
     display: flex;
 }
 
-.safra-x-parcelas{
+.mp-x-parcelas{
     margin-left: 10px;
     color: #ffffff;
     background: #00001E;
@@ -121,7 +122,7 @@
     font-size: 18px;
 }
 
-.safra-menu{
+.mp-menu{
     display: flex;
     justify-content: flex-start;
     width: 70%;
@@ -129,15 +130,15 @@
     margin-bottom: 25px;
 }
 
-.safra-liPreco{
-    color: #0080ff;
+.mp-liPreco{
+    color: #009EE3;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
-.safra-liPreco10{
+.mp-liPreco10{
     color: #009EE3;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
@@ -145,10 +146,10 @@
     margin-right: 8px;
 }
 
-.safra-liTaxa{
-    color: #ACACB6;
+.mp-liTaxa{
+    color: #858585;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
-    border-left: 2px solid #ffffff;
+    border-left: 2px solid #1d1d1d;
     padding-left: 10px;
 }
