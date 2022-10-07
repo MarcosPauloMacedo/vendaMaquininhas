@@ -180,7 +180,7 @@
 
                             <div class="mp-resultado-container">
                                 <div class="mp-tipoResultado">
-                                    <h3>No débito</h3>
+                                    <h3 id="titulo">No débito</h3>
                                     <ul class="mp-menu">
                                         <li id="mp-precoDebito" class="mp-liPreco">R$ 147.01</li> 
                                         <li class="mp-liTaxa">taxa de 1,99%</li>
@@ -763,37 +763,37 @@
                     <div class="ton-calcularCaixa">
                         <div class="ton-escolherPlano">
                             <p>Escolha seu plano:</p>
-                            <div class="ton-botoes">
-                                <button class="ton-button button-ultraTon">UltraTon</button>
-                                <button class="ton-button">Gigaton</button>
-                                <button class="ton-button">MegaTon</button>
-                                <button class="ton-button button-ultraBasico">Básico</button>
+                            <div class="ton-botoes" id="Botmaquininhas">
+                                <button value="UltraTon" id="botUltraTon" class="ton-button button-ultraTon">UltraTon</button>
+                                <button value="GigaTon"  id="botGigaTon" class="ton-button button-gigaTon">GigaTon</button>
+                                <button value="MegaTon" id="botMegaTon" class="ton-button button-megaTon">MegaTon</button>
+                                <button value="Basico" id="botBasico" class="ton-button button-ultraBasico">Básico</button>
                             </div>
                             <p>Tipo de venda:</p>
                             <div class="ton-tiposVendas">
-                                <button class="ton-button2 button-credito">Crédito</button>
-                                <button class="ton-button2 button-debito">Débito</button>
+                                <button value="credito" id="credito" class="ton-button2 button-credito ton-cred">Crédito</button>
+                                <button value="debito" id="debito" class="ton-button2 button-debito ton-deb">Débito</button>
                             </div>
                             <div class="ton-vlrVenda">
                                 <label class="ton-vlr-Venda" for="">Valor da venda:</label>
-                                <input class="valor-da-venda" type="number" placeholder="4000">
+                                <input class="valor-da-venda" id="valorVenda" type="number" placeholder="R$ 5.000,00">
                             </div>
                             <div class="ton-parcelaBandeira">
                                 <div class="ton-parcelamento">
                                     <label for="">Parcelamento:</label> 
-                                    <select id="ton-bandeira-cartao" name="venda">
+                                    <select id="todasParcelas" class="" name="venda">
                                         <option class="option" value="Avista">À vista</option>
-                                        <option value="duas">2x</option>
-                                        <option value="tres">3x</option>
-                                        <option value="quatro">4x</option>
-                                        <option value="cinco">5x</option>
-                                        <option value="seis">6x</option>
-                                        <option value="sete">7x</option>
-                                        <option value="oito">8x</option>
-                                        <option value="nove">9x</option>
-                                        <option value="dez">10x</option>
-                                        <option value="unze">11x</option>
-                                        <option value="doze">12x</option>
+                                        <option value="2x">2x</option>
+                                        <option value="3x">3x</option>
+                                        <option value="4x">4x</option>
+                                        <option value="5x">5x</option>
+                                        <option value="6x">6x</option>
+                                        <option value="7x">7x</option>
+                                        <option value="8x">8x</option>
+                                        <option value="9x">9x</option>
+                                        <option value="10x">10x</option>
+                                        <option value="11x">11x</option>
+                                        <option value="12x">12x</option>
                                     </select>                            
                                 </div>
                                 <div class="ton-cartao">
@@ -813,17 +813,17 @@
                         <div class="ton-resultadoPlano">
                             <div class="ton-receber">
                                 <p class="valor-receber">Você recebe:</p>
-                                <p class="resultado-valor-receber">R$ 3.872,00</p>
+                                <p id="valorDescontado" class="resultado-valor-receber">R$ 4.840,00</p>
                             </div>
-
+                
                             <div class="ton-taxasPagar">
                                 <div class="ton-taxasPagar-taxas">
                                     <p>taxa</p>
-                                    <p class="ton-vlr-taxa">3,20%</p>
+                                    <p id="tonTaxa" class="ton-vlr-taxa">3,20%</p>
                                 </div>
-                                <div class="ton-taxasPagar-tarifa">
+                                <div class="ton-taxasPagar-tarifa"> 
                                     <p>tarifa</p>
-                                    <p class="ton-vlr-taxa ton-vlr-tarifa">R$ 128,00</p>
+                                    <p id="tonTarifa" class="ton-vlr-taxa ton-vlr-tarifa">R$ 128,00</p>
                                 </div>
                             </div>
                             <div class="ton-economiaFinal">
