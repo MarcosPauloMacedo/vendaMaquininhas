@@ -1,5 +1,6 @@
 #pagSeguro{
     grid-area: pagSeguro;
+    margin-bottom: 20px;
 }
 
 #pagSeguro-container{

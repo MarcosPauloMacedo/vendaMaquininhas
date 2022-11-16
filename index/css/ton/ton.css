@@ -1,11 +1,14 @@
 #ton{
     grid-area: ton;
+    margin-bottom: 20px;
 }
 
 .ton-caixaInicial{
     background: #00B200;
     display: grid;
     grid-template-rows: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .imagem-fundo-ton{

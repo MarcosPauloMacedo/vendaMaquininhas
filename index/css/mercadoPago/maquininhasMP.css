@@ -105,3 +105,8 @@
     left:0;
 }
 
+@media screen and (max-width:550px) {
+    #mercadoPago-maquininhas{
+        flex-wrap: wrap;
+    }
+}

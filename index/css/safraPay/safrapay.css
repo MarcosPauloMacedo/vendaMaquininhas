@@ -4,6 +4,8 @@
     flex-direction: column;
     background: #EAEBEF;
     padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #safraPay-maquininhas{

@@ -2,6 +2,8 @@
 #ton-caixaFinal{
     background: #00B200;
     border-bottom: 100px solid #00B200;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #ton-caixaFinal h3{

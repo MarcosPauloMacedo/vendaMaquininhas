@@ -1,9 +1,12 @@
 #mercadoPago{
     grid-area: mercadoPago;
+    margin-bottom: 20px;
 }
 
 .mp-inicial{
     background: #009EE3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .mp-inicial{
@@ -55,4 +58,32 @@
     font-weight: 900;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width:550px) {
+    .mp-inicial{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+    }
+
+    .mp-inicialImagem{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .mp-textoMultiproduto{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    
+    .mp-imagemMultiproduto{
+        width: 90%;
+    }
+
+    .mp-textos{
+        height: auto;
+        margin-bottom: 40px;
+    }
+
 }

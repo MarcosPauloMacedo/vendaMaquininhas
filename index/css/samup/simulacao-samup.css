@@ -48,10 +48,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.smp-label :hover{
+    cursor: pointer;
+}
+
 .smp-tipos-bandeiras{
     grid-column: 2/3;
     display: flex;
     justify-content: space-around;
+}
+
+.smp-tipos-bandeiras :hover{
+    cursor: pointer;
+    background: rgb(212, 211, 211);
 }
 
 .smp-tipos-bandeiras button{

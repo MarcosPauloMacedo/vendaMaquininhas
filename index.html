@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./index/css/reset.css">
     <link rel="stylesheet" href="./index/css/style.css">
 
+    <link rel="stylesheet" href="./index/css/inicial/inicial.css">
+
     <link rel="stylesheet" href="./index/css/mercadoPago/mercadoPago.css">
     <link rel="stylesheet" href="./index/css/mercadoPago/maquininhasMP.css">
     <link rel="stylesheet" href="./index/css/mercadoPago/simulacao.css">
@@ -36,6 +38,21 @@
 
     <main id="conteudo">
         <div id="maquininhas">
+            <div id="inicio">
+                <div class="container-img-principal">
+                    <img class="imagem-principal" src="./index/imagens/plano-de-fundo.png" alt="">
+                </div>
+                <div class="texto-principal">
+                    <h2 class="h2-txt-principal">Aceite cartão na sua loja <br> com as menores taxas </h2>
+                    <ul class="menu-principal">
+                        <li class="lista-principal"><img class="icon-principal" src="./index/imagens/check-mark.png"> Receba de clientes de todos os bancos.</li>
+                        <li class="lista-principal"><img class="icon-principal" src="./index/imagens/check-mark.png"> Receba de clientes de todos os bancos.</li>
+                        <li class="lista-principal"><img class="icon-principal" src="./index/imagens/check-mark.png"> Receba de clientes de todos os bancos.</li>
+                        <li class="lista-principal"><img class="icon-principal" src="./index/imagens/check-mark.png"> Receba de clientes de todos os bancos.</li>
+                    </ul>
+                    <button class="bot-principal">CONFERE ABAIXO</button>
+                </div>
+            </div>
             <section id="mercadoPago">
                 <div class="mp-inicial">
                     <div class="mp-textoMultiproduto">
@@ -466,53 +483,55 @@
                 <section id="safra-simulacao">
                     <h2>SIMULE UMA VENDA</h2>
                     <div class="safra-pessoa">
+                        <!--
                         <label for="">Pessoa física</label>
                         <input type="checkbox" name="" id="">
                         
                         <label for="">Pessoa jurídica</label>
                         <input type="checkbox">
+                        -->
                     </div>
                     <div class="safra-calculadora">
                         <div class="safra-dados">
                             <h3 class="dados-txt">Insira os dados</h3>
                             <div class="dados-container">
                                 <label for="">Digite um valor da venda</label>
-                                <input type="number">
+                                <input id="receberValor" type="number">
                             </div>
                             <div class="dados-container">
                                 <label for="">Bandeiras de cartão</label>
-                                <select name="venda">
-                                    <option value="tipos-Cartao">Elo, Amex, Hipercard</option>
-                                    <option value="tipos-Cartao">MasterCard Visa</option>
+                                <select id="safra-tipoCartao" name="venda">
+                                    <option value="outrasMaquininhas">Elo, Amex, Hipercard</option>
+                                    <option value="visaMaster">MasterCard Visa</option>
                                 </select>
                             </div>
                             <div class="dados-container">
                                 <label for="">Prazo de recebimento</label>
-                                <select name="venda">
-                                    <option value="recebimento">Receber na hora</option>
-                                    <option value="recebimento">Receber em 1 dia</option>
-                                    <option value="recebimento">Sem antecipação</option>
+                                <select id="safra-prazos" name="venda">
+                                    <option value="receberHora">Receber na hora</option>
+                                    <option value="receber1dia">Receber em 1 dia</option>
+                                    <option value="semAntecipacao">Sem antecipação</option>
                                 </select>
                             </div>
                         </div>
                         <div class="safra-resultado">
                             <h3 class="resultado-txt">Resultado</h3>
-                            <p>Se vender R$ 150, você recebe: </p>
+                            <p id="valorRecebido">Se vender R$ 150, você recebe: </p>
 
                             <div class="resultado-container">
                                 <div class="safra-tipoResultado">
                                     <h3>No débito</h3>
                                     <ul class="safra-menu">
-                                        <li class="safra-liPreco">R$ 9,83</li>
-                                        <li class="safra-liTaxa">taxa de 1,68%</li>
+                                        <li id="precoTaxa" class="safra-liPreco">R$ 147,48</li>
+                                        <li id="taxa-safraDeb" class="safra-liTaxa">taxa de 2,98%</li>
                                     </ul>
                                 </div>
 
                                 <div class="safra-tipoResultado">
                                     <h3>No crédito à vista</h3>
                                     <ul class="safra-menu">
-                                        <li class="safra-liPreco">R$ 9,66</li>
-                                        <li class="safra-liTaxa">taxa de 3,45%</li>
+                                        <li id="precoTaxaCred" class="safra-liPreco">R$ 135,51</li>
+                                        <li id="taxa-safraCred" class="safra-liTaxa">taxa de 4,59%</li>
                                     </ul>
                                 </div>
 
@@ -526,15 +545,15 @@
                                         </select>
                                     </div>
                                     <ul class="safra-menu">
-                                        <li class="safra-liPreco">R$ 9,31</li>
-                                        <li class="safra-liTaxa">taxa de 6,95%</li>
+                                        <li class="safra-liPreco">R$ 139,57</li>
+                                        <li class="safra-liTaxa">taxa de 9,80%</li>
                                     </ul>
                                 </div>
 
                                 <div class="safra-tipoResultado">
                                     <h3>Pix</h3>
                                     <ul class="safra-menu">
-                                        <li class="safra-liPreco10">R$ 10,00</li>
+                                        <li id="pix-safra" class="safra-liPreco10">R$ 150,00</li>
                                         <li class="safra-liTaxa">taxa de 0,00%</li>
                                     </ul>
                                 </div>
@@ -928,9 +947,9 @@
                                 <h4>Quanto você vende por mês?</h4>
                                 <div class="smp-label">
                                     <label for="">Até 10.000 R$</label>
-                                    <input type="checkbox" name="" id="">
+                                    <input value="ate-10mil" type="radio" name="vlr" id="">
                                     <label for="">Mais de 10.000 R$</label>
-                                    <input type="checkbox" name="" id="">
+                                    <input value="mais-10mil" type="radio" name="vlr" id="">
                                 </div>
                             </div>
                             <div class="smp-tipos-bandeiras">
@@ -944,7 +963,7 @@
                                 <p class="smp-p">Receber as vendas em</p>
                                 <p class="smp-p-dia">1 dia útil</p>
                                 <p class="smp-p-promocao">Promoção</p>
-                                <p class="smp-p-porCento">1,0%</p>
+                                <p id="smp-tx-debito-1m" class="smp-p-porCento">1,0%</p>
                                 <p>por 2 meses e</p>
                                 <p class="smp-p-meses">1,6% após</p>
                             </div>
@@ -972,15 +991,15 @@
                                     <p class="smp-p">Receber as vendas em</p>
                                     <p class="smp-p-dia">1 dia útil</p>
                                     <p class="smp-p-promocao">Promoção</p>
-                                    <p class="smp-p-porCento">1,0%</p>
+                                    <p id="smp-tx-credito-1m" class="smp-p-porCento">1,0%</p>
                                     <p>por 2 meses e</p>
                                     <p class="smp-p-meses">3,4% após</p>
                                 </div>
                                 <div class="smp-credito-receber">
                                     <p class="smp-p">Receber as vendas em</p>
-                                    <p class="smp-p-dia">1 dia útil</p>
+                                    <p class="smp-p-dia">30 dias úteis</p>
                                     <p class="smp-p-promocao">Promoção</p>
-                                    <p class="smp-p-porCento">1,0%</p>
+                                    <p id="smp-tx-credito-30d" class="smp-p-porCento">1,0%</p>
                                     <p>por 2 meses e</p>
                                     <p class="smp-p-meses">2,9% após</p>
                                 </div>
@@ -992,10 +1011,11 @@
                
         </div>  
     </main>
-
-    </footer>
+    
     <script src="./index/js/ton/ton.js" type="module"></script>
     <script src="./index/js/mercadoPago/calculadora-mp.js"></script>
     <script src="./index/js/pagSeguro/simulacao.js"></script>
+    <script src="./index/js/safra/safra.js" type="module"></script>
+    <script src="./index/js/samup/calculadora.js" type="module"></script>
 </body>
 </html>

@@ -2,6 +2,8 @@
    grid-area: sumUp;
    padding-bottom: 50px;
    border: 2px solid #cecaca;
+   margin-bottom: 20px;
+   border-radius: 10px;
 }
 
 .sumup-inicio{
