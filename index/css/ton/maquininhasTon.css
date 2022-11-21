@@ -137,12 +137,18 @@ color: #00AD0C;
 }
 
 @media screen and (max-width:550px) {
+    #ton-container{
+        grid-template-rows: auto;
+    }
+    
     #t1{
         grid-column: 1/3;
+        margin-bottom: 20px;
     }
     
     #t1-chip{
         grid-column: 3/5;
+        margin-bottom: 20px;
     }
     
     #t2{

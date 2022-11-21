@@ -245,3 +245,80 @@
     background: rgb(233, 233, 233);
     border-radius: 10px;
 }
+
+@media screen and (max-width:550px) {
+
+    #ton-caixaFinal h3 {
+    font-size: 30px;
+    padding: 30px;
+}
+
+    .ton-calcularCaixa {
+    grid-template-columns: 45% 45%;
+}
+
+    .ton-escolherPlano {
+    padding: 10px;
+}
+
+    .ton-botoes {
+    flex-direction:column;
+}
+    
+
+.ton-button {
+    width: 100%;
+    height: 40px;
+}
+
+    .button-ultraTon {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+    .ton-vlrVenda input {
+    width: 90%;
+}
+
+ .button-ultraBasico {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+    .ton-parcelaBandeira {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 20px;
+}
+
+    #todasParcelas {
+    height: 40px;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+    .ton-resultadoPlano {
+    padding: 20px 10px 10px 10px;
+    }
+
+    .ton-receber {
+    font-size: 25px;
+    }
+
+    .ton-taxasPagar {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .ton-taxasPagar-taxas, .ton-taxasPagar-tarifa {
+    margin-bottom:15px;
+    padding:10px
+}
+
+    .ton-economiaFinal {
+    padding: 0px 10px;
+    width: 90%;
+}
+}
