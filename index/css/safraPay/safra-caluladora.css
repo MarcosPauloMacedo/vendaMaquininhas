@@ -152,3 +152,71 @@
     border-left: 2px solid #ffffff;
     padding-left: 10px;
 }
+
+@media screen and (max-width:550px) {
+
+    #safra-simulacao {
+        margin-top:30px;
+    }
+
+    #safra-simulacao h2{
+        font-size: 25px;
+    }
+
+    .safra-resultado p {
+    font-size: 12px;
+    }
+
+    .safra-calculadora{
+        width: 90%;
+    }
+
+    .safra-dados{
+        justify-content:flex-start;
+    }
+
+    .dados-txt{
+        font-size:20px;
+        margin-bottom: 50px;
+    }
+
+    .resultado-txt{
+        font-size:20px;
+    }
+
+    .safra-liPreco {
+    font-size: 15px;
+    }
+
+    .safra-liTaxa{
+    font-size: 13px;
+    }
+
+    .dados-container {
+        width: 90%;
+    }
+
+    .safra-dados input {
+        width: 90%;
+    }
+
+    .dados-container label {
+        font-size: 13px;
+    }
+
+    .safra-dados select {
+        padding: 5px;
+    }
+
+    .safra-dados input {
+        padding: 5px;
+    }
+
+    .safra-tipoResultado h3 {
+        font-size: 15px;
+    }
+
+    .safra-liPreco10 {
+        font-size: 15px;
+    }
+}

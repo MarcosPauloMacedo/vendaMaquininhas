@@ -50,6 +50,10 @@
     color: #ffffff;
 }
 
+.img-vetor-pagamento{
+    width: 0px;
+}
+
 .mp-dados-txt{
     align-self: center;
     font-size: 23px;
@@ -152,3 +156,66 @@
     border-left: 2px solid #1d1d1d;
     padding-left: 10px;
 }
+
+@media screen and (max-width:550px) {
+    #mp-simulacao{
+        padding-top:10px;
+        padding-bottom: 50px;
+    }
+
+    #mp-simulacao h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mp-calculadora{
+    width: 95%;
+    }
+
+    .img-vetor-pagamento{
+        width: 120px;
+        margin-top: 50px;
+    }
+
+    #mp-valor{
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .mp-dados-container select {
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .mp-dados-container label{
+        font-size: 15px;
+    }
+
+    .mp-dados-txt{
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom:20px;
+    }
+
+    .mp-resultado-txt{
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    .mp-liPreco{
+        font-size:16px;
+    }
+
+    .mp-tipoResultado h3{
+        font-size: 15px;
+    }
+
+    #mp-valorVenda{
+        text-align:center;
+    }
+}
+
+
+

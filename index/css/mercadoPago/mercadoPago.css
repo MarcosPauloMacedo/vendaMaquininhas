@@ -7,9 +7,6 @@
     background: #009EE3;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.mp-inicial{
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: auto;
@@ -84,6 +81,11 @@
     .mp-textos{
         height: auto;
         margin-bottom: 40px;
+    }
+
+    .mp-point{
+        width: 65%;
+        margin-top:10px;
     }
 
 }

@@ -129,5 +129,71 @@
     text-align: center;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media screen and (max-width:550px) {
+    #pagSeguro-container {
+        grid-template-columns: 47% 47%;
+        grid-template-rows: auto auto;
+    }
+
+    #minizinha-nfc{
+    grid-column: 1/2;
+    grid-row:1/2;
+    margin-bottom: 10px;
+}
+
+#moderninha-pro{
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin-bottom: 10px;
+}
+
+#moderninha-smart{
+    grid-column: 1/2;
+    grid-row:2/3;
+    padding-bottom: 10px;
+}
+
+#minizinha-chip3{
+    grid-column: 2/3;
+    grid-row:2/3;
+    padding-bottom: 10px;
+}
+
+.caixa-imagem{
+    height: 50px;
+}
+
+.pagSeguro-nome{
+    padding: 10px 0px 20px 0px;
+}
+
+.pagSeguro-descricao{
+    font-size: 17px;
+}
+
+.preco-pagSeguro{
+    padding: 30px 0px 5px 0px;
+}
+
+.precoDividido-pagSeguro {
+    padding: 0px 2px 0px 2px;
+}
+
+.pagSeguro-precoReal{
+    font-size: 35px;
+}
+
+.peca-ja{
+    width: 90%;
+}
+
+
+#pagSeguro-simulacao {
+    height: auto;
+    padding: 20px 0px 50px 0px;
+}
 
 }

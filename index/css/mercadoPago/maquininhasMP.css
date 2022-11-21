@@ -1,5 +1,5 @@
 #mercadoPago-maquininhas{
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     background: #009EE3;
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
@@ -107,6 +107,33 @@
 
 @media screen and (max-width:550px) {
     #mercadoPago-maquininhas{
-        flex-wrap: wrap;
+     grid-template-columns: 47% 47%;
+     grid-template-rows: auto auto;
+    }
+
+    #mini-point{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #pro-2{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-bottom: 10px;
+    }
+
+     #point-smart{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-bottom:10px;
+    }
+
+    #mini-chip{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding-bottom:10px;
+         margin-bottom: 10px;
     }
 }

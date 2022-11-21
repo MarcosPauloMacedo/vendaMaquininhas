@@ -9,6 +9,7 @@
     'ton'
     'sumUp';
     grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 100%;
 }
 
 
@@ -17,3 +18,4 @@
         padding: 0px;
     }
 }
+
