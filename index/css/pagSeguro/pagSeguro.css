@@ -11,6 +11,11 @@
     grid-template-columns: 23% 23% 23% 23%;
 }
 
+.caixa-inicial-maq{
+    text-align: center;
+    height: 200px;
+}
+
 #minizinha-nfc{
     grid-column: 1/2;
     display: flex;
@@ -53,7 +58,7 @@
 }
 
 .caixa-imagem{
-    height: 150px;
+    height: 100px;
     text-align: center;
 }
 
@@ -75,21 +80,21 @@
 }
 
 .pagSeguro-nome{
-    padding: 10px 0px 50px 0px;
+    padding: 10px 0px;
     align-self: center;
     width: 70%;
 }
 
 .pagSeguro-smart{
     width: 50%;
-    padding: 10px 0px 35px 0px;
+    padding: 10px 0px;
     align-self: center;
 }
 
 .pagSeguro-chip3{
     width: 70%;
     align-self: center;
-    padding: 10px 0px 37px 0px;
+    padding: 10px 0px;
 }
 
 .pagSeguro-descricao{
@@ -132,7 +137,7 @@
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     #pagSeguro-container {
         grid-template-columns: 47% 47%;
         grid-template-rows: auto auto;
@@ -163,7 +168,7 @@
 }
 
 .caixa-imagem{
-    height: 50px;
+    height: auto;
 }
 
 .pagSeguro-nome{
@@ -194,6 +199,29 @@
 #pagSeguro-simulacao {
     height: auto;
     padding: 20px 0px 50px 0px;
+}
+}
+
+@media screen and (min-width:651px) and (max-width:1000px){
+    .caixa-inicial-maq {
+    height: 130px;
+}
+
+
+.caixa-imagem {
+height: 50px;
+}
+
+.pagSeguro-descricao {
+font-size: 15px;
+}    
+
+.caixa-inicial-txt-pag{
+    height:50px;
+}
+
+.pagSeguro-precoReal {
+font-size: 35px;
 }
 
 }

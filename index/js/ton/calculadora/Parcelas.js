@@ -1,5 +1,5 @@
-import {Taxas} from './Taxas.mjs'
-import {TodasParcelas} from './todasParcelas.mjs'
+import {Taxas} from './Taxas.js'
+import {TodasParcelas} from './todasParcelas.js'
 
 export class Parcelas extends TodasParcelas{
     constructor(){

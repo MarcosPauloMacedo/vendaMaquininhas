@@ -1,6 +1,6 @@
 import {Planos} from './Planos.js'
 import {Valores} from "./Valores.js"
-import {Simulacao} from './calculadora/simulacao.mjs'
+import {Simulacao} from './calculadora/simulacao.js'
 
 const simulacao = new Simulacao()
 const planos = new Planos()

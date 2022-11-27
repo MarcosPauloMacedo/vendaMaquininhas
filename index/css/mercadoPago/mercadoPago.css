@@ -31,7 +31,7 @@
 }
 
 .mp-textos{
-    height: 40%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,8 +40,9 @@
 
 .mp-point{
     background: #32bcf8;
-    padding: 5PX;
-    WIDTH: 35%;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
     border-radius: 20px;
     margin-bottom: 20px;
 }
@@ -57,7 +58,7 @@
     margin-bottom: 40px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:750px) {
     .mp-inicial{
         display: grid;
         grid-template-rows: auto auto;
@@ -85,7 +86,28 @@
 
     .mp-point{
         width: 65%;
+        text-align: center;
         margin-top:10px;
     }
 
+}
+
+@media screen and (min-width:701px) and  (max-width:1000px){
+    .mp-textos {
+        height: auto;
+        margin-top: 30px;
+    }
+    
+        .mp-imagemMultiproduto {
+        width: 100%;
+    }
+    
+        .mp-textoMultiproduto h2 {
+        font-size: 20px;
+    }
+    
+        .mp-point {
+        width: 65%;
+        text-align: center;
+    }
 }

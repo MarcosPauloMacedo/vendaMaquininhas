@@ -129,13 +129,21 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     #safraPay-maquininhas{
     grid-template-rows: auto auto;
     }
 
-    #safraPay{
-        height: 1930px;
+    .safra-especificacao-caixa{
+        display: flex;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .safra-caixa-desconto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .safraPay-inicial img {
@@ -190,3 +198,42 @@
     font-size: 35px;
     }
 }
+
+@media screen and (min-width: 651px) and (max-width:1100px){
+    .safraPay-inicial img {
+        width: 70%;
+    }
+
+    .safra-caixa {
+        height: 100px
+    }
+
+    .safra-titulo {
+        font-size: 17px;
+    }    
+
+    .safra-especificacao-caixa{
+        display: flex;
+        height: 200px;
+    }
+
+    .safra-economia {
+        font-size: 13px;
+    }
+
+    .caixa-economia {
+        width: 90%;
+    }
+
+    .safra-valorFinal {
+        font-size: 30px;
+    }
+
+    .safra-caixa-desconto{
+        display:flex;
+        flex-direction:column;
+        height: 120px;
+    }
+}
+
+

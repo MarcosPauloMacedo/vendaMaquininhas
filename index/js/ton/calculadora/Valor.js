@@ -1,4 +1,5 @@
-import {Simulacao} from './teste.js'
+//import {Simulacao} from './teste.js'
+import {Simulacao} from './simulacao.mjs'
 
 class Valor extends Simulacao{
     constructor(){

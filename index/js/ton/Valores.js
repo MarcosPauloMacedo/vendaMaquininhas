@@ -1,4 +1,4 @@
-import { Planos } from "./planos.js";
+import { Planos } from "./Planos.js";
 export class Valores extends Planos{
     constructor(){
         super()

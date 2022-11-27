@@ -1,6 +1,6 @@
-import {Taxas} from './Taxas.mjs'
-import {Estilo} from './Estilo.mjs'
-import {Parcelas} from './Parcelas.mjs'
+import {Taxas} from './Taxas.js'
+import {Estilo} from './Estilo.js'
+import {Parcelas} from './Parcelas.js'
 
 export class Simulacao extends Taxas{
     constructor(){

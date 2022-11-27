@@ -24,7 +24,6 @@
 }
 
 .pagSeguro-texto-caixa{
-    height: 50%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -34,6 +33,7 @@
 .pagSeguro-texto-caixa h2{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
+    margin-bottom: 20px;
     font-weight: 900;
     color: #ffffff;
 }
@@ -60,14 +60,22 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:750px) {
 
  .pagSeguroInicial{
   grid-template-rows:auto auto;
  }
+
+ .pagSeguro-texto-caixa h2 {
+    font-size: 25px;
+}
  
  .pagSeguro-imagem{
      grid-column: 1/3;
+}
+
+.pag-cartao, .pag-transferencia, .pag-app {
+    padding: 10px;
 }
 
 .pagSeguro-texto{
@@ -80,5 +88,20 @@
 
 .pag-beneficios{
  margin-top:20px;
+ padding: 0px;
+}
 }
 
+@media screen and (min-width:751px) and (max-width:1000px){
+    .pagSeguro-texto-caixa h2 {
+        font-size: 20px;
+    }
+
+    .pag-beneficios {
+        padding: 15px 0px;
+    }
+
+    .pag-cartao, .pag-transferencia, .pag-app {
+        padding: 0px 5px;
+    }
+}

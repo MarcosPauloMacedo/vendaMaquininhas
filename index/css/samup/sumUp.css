@@ -173,3 +173,44 @@
     align-self: center;
     margin: 10px 0px;
 }
+
+@media screen and (max-width:550px) {
+    .sumup-imagemInicial {
+     grid-column: 1/3;
+ }
+    .sumup-txtInicial {
+     grid-column: 1/3;
+ }
+ 
+    .sumup-txtInicial h2 {
+     margin-bottom: 20px;
+     margin-top: 30px;
+ }
+ 
+    #sumup-top {
+     grid-column: 1/3;
+     margin-bottom:10px;
+ }
+ 
+    #sumup-solo {
+     grid-column: 3/5;
+     margin-bottom:10px;
+ }
+ 
+    #sumup-total {
+     grid-column: 1/3;
+ }
+ 
+    #sumup-on {
+     grid-column: 3/5;
+ }
+ 
+    .imagem-pro{
+       width:70%;
+       margin-top:10px;
+    }
+ 
+    .imagem-total{
+       margin-top:5px;
+    } 
+ }

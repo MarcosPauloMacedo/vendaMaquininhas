@@ -169,3 +169,63 @@
 .smp-credito-receber{
     grid-column: 2/3;
 }
+
+@media screen and (max-width:550px) {
+    .samup-simulacao h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+    .smp-p {
+    /* width: 100%; */
+    margin-bottom:30px;
+    text-align:center;
+}
+
+    .smp-tipos-bandeiras button {
+    width: 45%;
+    font-size: 12px;
+}
+
+    .smp-bandeiras {
+    grid-template-columns: 45% 50%;
+}
+
+    .samup-simulacao {
+    height: auto;
+}
+
+    .smp-debito {
+    padding: 5px;
+}
+
+    .smp-credito {
+    padding: 5px;
+}
+
+    .smp-p-promocao {
+    width: 85%;
+    font-size: 15px;
+}
+
+    #smp-bandeira-cartao {
+    width: 45%;
+    padding: 2px;
+}
+
+    .smp-subtitulo {
+    font-size: 20px;
+}
+
+    smp-p-promocao {
+    font-size: 15px;
+}
+
+    .smp-p-porCento {
+    font-size: 20px;
+}
+
+    .smp-p-meses {
+    font-size: 10px;
+    }
+}

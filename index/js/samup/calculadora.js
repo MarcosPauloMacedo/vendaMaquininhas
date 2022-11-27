@@ -1,4 +1,4 @@
-import {TarifasSumup} from './Tarifas.mjs'
+import {TarifasSumup} from './Tarifas.js'
 
 class Calculadora extends TarifasSumup{
    constructor(){

@@ -1,4 +1,4 @@
-import {Taxas} from './Safra-tarifas.mjs'
+import {Taxas} from './Safra-tarifas.js'
 
 export class Calculadora extends Taxas{
     constructor(){

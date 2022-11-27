@@ -157,7 +157,7 @@
     padding-left: 10px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:850px) {
     #mp-simulacao{
         padding-top:10px;
         padding-bottom: 50px;
