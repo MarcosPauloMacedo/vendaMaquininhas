@@ -42,7 +42,7 @@
 #sumup-maquininha{
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
-    grid-template-rows: 500px;
+    grid-template-rows: auto;
     padding: 20px 20px 0px 20px;
     justify-content: space-between;
 }
@@ -54,6 +54,11 @@
     align-items: center;
     border: 3px solid #cecaca;
     border-radius: 10px;
+}
+
+.imagem-pro {
+    width: 70%;
+    margin-top: 10px;
 }
 
 #sumup-solo{
@@ -137,6 +142,7 @@
 
 .sumup-totalPrecos{
     width: 85%;
+    height: 100px;
 }
 
 .sumup-todosPrecos{
@@ -174,7 +180,7 @@
     margin: 10px 0px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:650px) {
     .sumup-imagemInicial {
      grid-column: 1/3;
  }
@@ -200,6 +206,10 @@
     #sumup-total {
      grid-column: 1/3;
  }
+
+ .sumup-totalPrecos {
+    height: 60px;
+}
  
     #sumup-on {
      grid-column: 3/5;
@@ -213,4 +223,71 @@
     .imagem-total{
        margin-top:5px;
     } 
+ }
+
+ @media screen and (min-width:651px) and (max-width:740px){
+    .sumup-imagemInicial {
+        grid-column: 1/3;
+    }
+       .sumup-txtInicial {
+        grid-column: 1/3;
+    }
+    
+       .sumup-txtInicial h2 {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .sumup-valorFinal{
+        font-size: 30px;
+    }
+
+    .sumup-caixa{
+        height: 120px;
+    }
+    
+    .sumup-titulo{
+        font-size: 20px;
+    }
+
+    .sumup-desconto {
+        font-size: 15px;
+    }
+
+    .sumup-totalPrecos{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .smp-caixa-preco{
+        height: 50px;
+    }
+
+ }
+
+ @media screen and (min-width: 741px) and (max-width:1000px){
+    .sumup-caixa{
+        height: 160px;
+    }
+
+    .sumup-titulo{
+        font-size: 20px;
+    }
+
+    .sumup-txtInicial h2 {
+        font-size: 25px;
+    }
+    
+    .sumup-totalPrecos{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .smp-caixa-preco{
+        height: 50px;
+    }
+
+    .sumup-desconto {
+        font-size: 15px;
+    }
  }

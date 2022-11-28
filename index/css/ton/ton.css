@@ -67,7 +67,7 @@
     height: 100%;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:750px) {
     .ton-txtUltra {
         height: 0px;
         width: 0%;
@@ -87,6 +87,21 @@
         display: grid;
         grid-template-columns: 23% 23% 23% 23%;
         grid-template-rows: auto auto;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1000px){
+    .ton-txtUltra{
+        height: auto;
+        width: auto;
+    }
+
+    .ton-txtUltra h2{
+        font-size: 15px;
+    }
+
+    .span-preco{
+        font-size: 15px;
     }
 }
 

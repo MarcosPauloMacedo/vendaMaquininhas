@@ -246,7 +246,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:1000px) {
 
     #ton-caixaFinal h3 {
     font-size: 30px;
