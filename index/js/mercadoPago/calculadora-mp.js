@@ -80,6 +80,6 @@ class Simulacao{
     }
 }
 
-const simulacao = new Simulacao()
+const simulacao = new Simulacao
 simulacao.simular()
 simulacao.mostrar()

@@ -111,6 +111,7 @@
     margin-bottom: 30px;
 }
 
+
 @media screen and (max-width:650px) {
     #mercadoPago-maquininhas{
      grid-template-columns: 47% 47%;
