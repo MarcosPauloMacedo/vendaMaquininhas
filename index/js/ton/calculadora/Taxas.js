@@ -47,7 +47,7 @@ export class Taxas{
         if(debCred == 'debito'){  
             this.tonTaxa.innerText = porcentagem.debito
 
-            if(this.valorVenda.value == 0){
+            if(this.valorVenda.value == 0 || this.valorVenda.value > 100000){
                 let formula = 5000 - (5000 * taxa.debito)
                 let real = this._formatarMoeda(formula)
 
@@ -103,7 +103,7 @@ export class Taxas{
     }
     _condicao(taxa){
 
-        if(this.valorVenda.value == 0){
+        if(this.valorVenda.value == 0 || this.valorVenda.value > 100000){
             let formatar = 5000 - (5000 * taxa)
             let real = this._formatarMoeda(formatar)
             this.valorDescontado.innerText = real

@@ -22,7 +22,7 @@ class Simulacao{
                 this.pix.textContent = 'R$ 150.00'
             }
 
-            else{
+            else if(valor.value <=10000){
                 this.venda.
                 innerText = `Se vender R$ ${valor.value},00, você recebe:`
 

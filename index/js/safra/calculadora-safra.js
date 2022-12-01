@@ -20,7 +20,7 @@ export class Calculadora extends Taxas{
     }
 
     _valorMinimo(valor){
-        if(valor == 0){
+        if(valor == 0 || valor >100000){
            return valor = 150
         }
         else{
