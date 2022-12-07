@@ -7,12 +7,33 @@ let clicar = (botao,link)=>{
     })
 }
 
+let mpClicar = (botao)=>{
+    botao.forEach((bot)=>{
+        bot.style.cursor = 'pointer'
+        bot.onclick = ()=>{
+
+            switch(bot.value){
+                case 'mini-point' : open('http://mpago.li/1f26vJ8')
+                break
+
+                case 'point-pro2' : open('http://mpago.li/2A6sjV4')
+                break
+
+                case 'point-smart' : open('http://mpago.li/1aPkZzS')
+                break
+                
+                case 'mini-chip' : open('http://mpago.li/274pL6k')
+                break
+            }
+        }
+    })
+}
+
 let pegar = document.querySelectorAll.bind(document)
 
 let botmp = pegar('.botao-comprar')
-let linkmp = 'https://mpago.li/1UKPQKj'
 
-clicar(botmp,linkmp)
+mpClicar(botmp)
 
 let botpagSeg = pegar('.peca-ja')
 let linkpagSeg = 'http://pagseguro.info/bdcpzNwd'
